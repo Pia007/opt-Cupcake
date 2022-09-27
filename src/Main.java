@@ -123,6 +123,9 @@ public class Main {
         drinkMenu.add(water);
         drinkMenu.add(soda);
         drinkMenu.add(milk);
+
+        // call the order constructor
+        new Order(cupcakeMenu, drinkMenu);
     }
 }
 
