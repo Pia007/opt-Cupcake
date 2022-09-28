@@ -67,6 +67,7 @@ public class Main {
 
         cupcakeMenu.add(chocolate);
 
+        // PART 2
 
         // create a new ArrayList which contains Drink object and name it drinkMenu
         ArrayList<Drink> drinkMenu = new ArrayList<Drink>();
@@ -148,11 +149,11 @@ class Cupcake {
     // Create a public function named type that prints “A basic, generic cupcake,
     // with vanilla frosting” and returns void.
     public void type() {
-        System.out.println("\nA basic, generic cupcake, with vanilla frosting");
+        System.out.println("A basic, generic cupcake, with vanilla frosting.");
     }
 }
 
-// create a Redvelvet class and Chocolate class that extends Cupcake
+// create a Red velvet class and Chocolate class that extends Cupcake
 // inherits getPrice(), setPrice() and type() from cupcake
 
 class RedVelvet extends Cupcake {
@@ -160,7 +161,7 @@ class RedVelvet extends Cupcake {
     // override type() to print “A red velvet cupcake, with cream cheese frosting”
     @Override
     public void type() {
-        System.out.println("\nA red velvet cupcake, with cream cheese frosting");
+        System.out.println("A red velvet cupcake, with cream cheese frosting.");
     }
 }
 
@@ -169,7 +170,7 @@ class Chocolate extends Cupcake {
     // override type() to print “A chocolate cupcake, with chocolate frosting”
     @Override
     public void type() {
-        System.out.println("\nA chocolate cupcake, with chocolate frosting");
+        System.out.println("A chocolate cupcake, with chocolate frosting.");
     }
 }
 
@@ -202,7 +203,7 @@ class Soda extends Drink {
     // override type() to print “A can of soda”
     @Override
     public void type() {
-        System.out.println("A can of soda");
+        System.out.println("A can of soda.");
     }
 }
 
@@ -211,7 +212,6 @@ class Milk extends Drink {
     // override type() to print “A glass of milk”
     @Override
     public void type() {
-        System.out.println("A glass of milk");
+        System.out.println("A glass of milk.");
     }
 }
-
